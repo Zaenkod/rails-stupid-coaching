@@ -1,0 +1,11 @@
+<h1>Your stupid coach</h1>
+<div class="container" width=200px>
+  <div>
+    <%= @question %> <p>You</p>
+  </div>
+  <div class="p-3 mb-2 bg-warning">
+    <%= @response %> <p>Your coach</p>
+  </div>
+  <br>
+  <%= link_to "Go back to ask question", ask_path %>
+</div>
